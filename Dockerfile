@@ -1,4 +1,4 @@
-FROM mosesonline/mo_jenkins:2.18
+FROM mosesonline/mo_jenkins:2.19
 
 ARG MAVEN_VERSION
 ENV MAVEN_VERSION ${MAVEN_VERSION:-3.3.9}
